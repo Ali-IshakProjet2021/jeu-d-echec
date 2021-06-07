@@ -73,7 +73,7 @@ public class Joueur{
 			 
 		}
 		if (!ok)
-			System.out.println("position erronn»e, rejouer");
+			System.out.println("position erronn√àe, rejouer");
 		return selectionnee;
 			
 	}
@@ -92,7 +92,7 @@ public class Joueur{
 			 
 		
 		if (!ok)
-			System.out.println("position erronn»e, rejouer");
+			System.out.println("position erronn√àe, rejouer");
 		return selectionnee;
 			
 	}
@@ -112,11 +112,11 @@ public class Joueur{
 			}
 		}
 		else
-			System.out.println("erreur d'arriv»");
+			System.out.println("erreur d'arriv√à");
 		return tentative;			
 	}
 
-	@Override
+	
 	public String toString() {
 		return "Joueur [nom=" + nom + ", couleur=" + couleur + "]";
 	}
